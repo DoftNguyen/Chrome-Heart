@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary:#afafaf;
+}
+
+body {
+    font-family: 'Inter' , sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #f2f2f2;
+    color: #495057;
+    line-height: 1.6;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: #212529;
+    font-weight: 700;
+}
+
+a:hover {
+    color: var(--color-primary);
+} 
+
+.hidden {
+    display: none;
+}
+
+/* NAVIGATION-START */
+.header {
+    display: flex;
+    height: 130px;
+    padding: 0 52px;
+    border-bottom: 2px solid #dee2e6;
+    background-color: #ffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header-nav {
+    flex: 1;
+}
+
+.header-nav ul {
+    display: flex;
+    height: 100%;
+}
+
+.header-nav ul li {
+    list-style: none;
+    position: relative;
+}
+
+.header-nav ul li a {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 7px;
+}
+
+.header-nav ul li a img {
+    width: 25px;
+}
+
+.header-logo {
+    display: flex;
+    /* flex: 1; */
+    align-items: center;
+}
+
+.header-logo img {
+    width: 200px;
+    height: 100%;
+}
+
+.header-buttons {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-buttons ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-buttons ul li button img {
+    height: 40px;
+}
+
+.header-buttons ul li button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+    padding: 0px 10px;
+}
+
+.expanding-menu {
+    position: absolute;
+    background-color: #cacaca;
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
